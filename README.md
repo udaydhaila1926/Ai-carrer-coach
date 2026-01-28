@@ -1,20 +1,51 @@
-# Full Stack AI Career Coach with Next JS, Neon DB, Tailwind, Prisma, Inngest, Shadcn UI Tutorial 🔥🔥
-## https://youtu.be/UbXpRv5ApKA
+# 🤖 Full Stack AI Career Coach
 
-![sensai](https://github.com/user-attachments/assets/eee79242-4056-4d19-b655-2873788979e1)
+A **Full Stack AI-powered Career Coaching platform** built with **Next.js** that helps users advance their careers through AI-generated resumes, interview preparation quizzes, and real-world industry insights.
 
-### Make sure to create a `.env` file with following variables -
+Designed with modern tooling and scalable architecture to simulate a production-ready SaaS application.
 
-```
-DATABASE_URL=
+---
 
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
+## 🚀 Features
 
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
-NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
+### 📄 AI Resume Builder
+- Generate professional, ATS-friendly resumes
+- Tailored content based on role, skills, and experience
+- Clean and modern resume structure
 
-GEMINI_API_KEY=
-```
+### 🧠 Interview Preparation Quiz
+- Role-specific interview questions
+- Technical + behavioral MCQs
+- Helps users practice and evaluate readiness
+
+### 📊 Industry Insights
+- Career trends and in-demand skills
+- Role-based guidance using AI
+- Industry-specific recommendations
+
+### ⚙️ Background Jobs & Automation
+- Event-driven workflows using **Inngest**
+- Async task handling for AI operations
+
+---
+
+## 🛠️ Tech Stack
+
+### 🧩 Frontend
+- **Next.js (App Router)**
+- **JavaScript**
+- **Tailwind CSS**
+- **shadcn/ui**
+
+### 🧠 Backend
+- **Next.js Server Actions / API Routes**
+- **Prisma ORM**
+- **Neon PostgreSQL Database**
+
+### ⚡ Infrastructure & Tools
+- **Inngest** – background jobs & workflows
+- **Prisma** – database modeling & queries
+- **Neon DB** – serverless PostgreSQL
+- **Vercel** – deployment
+
+---
